@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace Php;
 
-use PHPUnit\Framework\TestCase;
+use Helper\TestBase;
 
-final class ArrayTest extends TestCase
+final class ArrayTest extends TestBase
 {
     public function testArrayMerge()
     {
